@@ -1,0 +1,3 @@
+[submodule "slc-hugo"]
+	path = slc-hugo
+	url = ./slc-hugo
