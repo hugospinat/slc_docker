@@ -1,0 +1,3 @@
+vps.slc.asso.fr {
+    reverse_proxy hugo:80
+}
