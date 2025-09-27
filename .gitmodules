@@ -1,3 +1,6 @@
 [submodule "slc-hugo"]
 	path = slc-hugo
 	url = ./slc-hugo
+[submodule "slc_portail"]
+	path = slc_portail
+	url = ./slc_portail/
