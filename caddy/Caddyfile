@@ -1,3 +1,7 @@
 vps.slc.asso.fr {
     reverse_proxy hugo:80
 }
+
+db.slc.asso.fr {
+    reverse_proxy baserow:80
+}
