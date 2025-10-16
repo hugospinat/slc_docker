@@ -1,7 +1,20 @@
-vps.slc.asso.fr {
+
+slc.asso.fr {
     reverse_proxy hugo:80
+}
+
+adhesion.slc.asso.fr, adhesions.slc.asso.fr {
+    redir https://slc.asso.fr/menu/adhésions permanent
+}
+
+csfparis.fr, www3.csfparis.fr, www.csfparis.fr, www.slc.asso.fr, www3.slc.asso.fr {
+    redir https://slc.asso.fr
 }
 
 db.slc.asso.fr {
     reverse_proxy baserow:80
+}
+
+portail.slc.asso.fr {
+    reverse_proxy slc_phx2-phoenix-1:4000
 }

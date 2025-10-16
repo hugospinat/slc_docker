@@ -1,6 +1,6 @@
-[submodule "slc-hugo"]
+[submodule "hugo"]
 	path = hugo
 	url = ../slc-hugo.git
-[submodule "slc_portail"]
-	path = phoenix
+[submodule "phoenix"]
+	path = slc_phx2
 	url = ../slc_portail.git

@@ -5,6 +5,11 @@ services:
     environment:
       BASEROW_PUBLIC_URL: "https://db.slc.asso.fr"
       # pas besoin de WEB_FRONTEND_SSL_PORT si Caddy gère le SSL
+      # Désactiver le Caddy intégré car on utilise un reverse proxy externe
+      BASEROW_CADDY_ADDRESSES: ""
+
+      # Configuration sécurisée
+      BASEROW_ENABLE_SECURE_PROXY_SSL_HEADER: "false"
     volumes:
       - baserow_data:/baserow/data
     networks:
